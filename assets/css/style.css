@@ -1,0 +1,62 @@
+.S-card {
+    flex: 1 0 0;
+    padding: 20px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+    width: 45%;
+    position: relative;
+    justify-self: center;
+  }
+
+  .S-card header {
+    padding: 20px;
+    background: #4283c0;
+    color: #fff;
+  }
+
+  .L-card {
+    flex: 1 0 0;
+    padding: 20px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+  }
+
+  .L-card header {
+    padding: 20px;
+    background: #4283c0;
+    color: #fff;
+  }
+
+  .nav {
+    display: inline-block;
+    background-color: rgb(73, 16, 232);
+    padding: 10px;
+    justify-content: space-evenly;
+  }
+
+  .about-me {
+    background-color: rgb(104, 104, 233);
+  }
+
+  .Main-Header {
+    background-color: rgb(104, 104, 233);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .work {
+    margin: 5dvb;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+  }
+
+  .Name {
+    font-size: 200%;
+    margin-top: 5dvb;
+    margin-left: 2%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
