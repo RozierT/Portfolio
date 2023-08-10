@@ -5,18 +5,18 @@
     border-style: solid;
     border-width: 1px;
     display: inline-block;
-    width: 45%;
+    width: 35%;
     position: relative;
     justify-self: center;
   }
 
   .S-card header {
     padding: 20px;
-    background: #4283c0;
     color: #fff;
   }
 
   .L-card {
+    width: 75%;
     flex: 1 0 0;
     padding: 20px;
     text-align: center;
@@ -26,23 +26,22 @@
 
   .L-card header {
     padding: 20px;
-    background: #4283c0;
-    color: #fff;
+    color: #000000;
+    font-weight: 1000;
+    font-stretch: ultra-expanded;
   }
 
   .nav {
     display: inline-block;
-    background-color: rgb(73, 16, 232);
     padding: 10px;
     justify-content: space-evenly;
   }
 
   .about-me {
-    background-color: rgb(104, 104, 233);
+    padding: 1rem;
   }
 
   .Main-Header {
-    background-color: rgb(104, 104, 233);
     display: flex;
     justify-content: space-between;
   }
@@ -51,7 +50,9 @@
     margin: 5dvb;
     margin-left: 10%;
     margin-right: 10%;
-    display: flex;
+    display: flexbox;
+    justify-content: space-around;
+    align-content: center;
   }
 
   .Name {
@@ -59,4 +60,20 @@
     margin-top: 5dvb;
     margin-left: 2%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  body {
+    background-color: rgb(81, 189, 244);
+    display: flexbox;
+  }
+
+  #vocab{
+    background-image:url('./images/VVhomepage.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 80%;
+    color:black;
+    font-weight: bolder;
+    font-stretch: semi-expanded;
   }
