@@ -19,7 +19,7 @@
     width: 75%;
     flex: 1 0 0;
     padding: 20px;
-    text-align: center;
+    text-align: left;
     border-style: solid;
     border-width: 1px;
   }
@@ -29,6 +29,8 @@
     color: #000000;
     font-weight: 1000;
     font-stretch: ultra-expanded;
+    background-color: rgb(88, 100, 233);
+    background-clip:content-box;
   }
 
   .nav {
@@ -76,4 +78,11 @@
     color:black;
     font-weight: bolder;
     font-stretch: semi-expanded;
+    
+  }
+
+  #vocab.h1{
+    justify-self: left;
+    justify-items: left;
+    justify-content: left;
   }
