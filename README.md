@@ -1,6 +1,27 @@
 # Portfolio
 A Professional Portfolio
 
+## Challenge #2 Portfolio
+URL: https://roziert.github.io/Portfolio/
+
+## Description
+The purpose of this portfolio is show have a centralized location to show off all of the projects and applications that you have created.
+
+## Screenshot of Portfolio
+![Alt Text](assets/css/images/PortfolioScreenshot.png)
+
+## Installation
+On Github.com, navigate to the main page of the repository- https://github.com/RozierT/Portfolio
+Above the list of files, click < > code.
+Clone the repository.
+Open terminal.
+Change the current working directory to the location where you want the cloned directory.
+Type git clone, and then paste the URL you copied earlier.
+Press Enter to create your local clone.
+Usage
+Use this application to show off a colection of works that have created/contributed to
+
+## Intructions for this challenge
 
 Advanced CSS Challenge: Professional Portfolio
 Welcome to this week's Challenge! This is an even-numbered week, so you won't be given any starter code. Instead, you'll create a web application from scratch! This week, you'll build a portfolio page, which you can add to as the course progresses.
